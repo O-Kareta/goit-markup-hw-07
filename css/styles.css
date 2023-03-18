@@ -349,8 +349,7 @@ img {
 .mobile-header-nav {
   display: flex;
   flex-direction: column;
-  margin-bottom: 284px;
-}
+ }
 
 .mobile-header-menu {
   display: flex;
