@@ -66,6 +66,95 @@
             </li>
           </ul>
         </address>
+        <button
+          class="header-burger js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="header-burger" width="32px" height="22">
+            <use href="./images/icons.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
+              <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <button class="modal-close js-close-menu" type="button">
+          <svg height="8" width="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-header-nav">
+          <ul class="mobile-header-menu list">
+            <li class="mobile-header-item">
+              <a class="mobile-nav-link current link" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-header-item">
+              <a class="mobile-nav-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-header-item">
+              <a class="mobile-nav-link link" href="./portfolio.html"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-contacts">
+          <address class="mobile-header-address">
+            <ul class="mobile-contact-list list">
+              <li class="mobile-contacts-item">
+                <a
+                  class="mobile-header-contacts phone link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contacts-item">
+                <a
+                  class="mobile-header-contacts email link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="socials-mobile">
+            <ul class="mobile-socials-list">
+              <li class="socials-item">
+                <a class="socials-link" href="#">
+                  <svg class="socials-icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a class="socials-link" href="#">
+                  <svg class="socials-icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a class="socials-link" href="#">
+                  <svg class="socials-icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="socials-item">
+                <a class="socials-link" href="#">
+                  <svg class="socials-icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       </div>
     </header>
 
@@ -94,6 +183,7 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="./images/imgapp1.jpg 1x, ./images/imgapp1@2x.jpg 2x"
                     src="./images/imgapp1.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -117,6 +207,10 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="
+                      ./images/imgmarketing1.jpg 1x,
+                      ./images/imgmarketing1@2x.jpg 2x
+                    "
                     src="./images/imgmarketing1.jpg"
                     alt="Cashless Payment"
                     width="360"
@@ -138,6 +232,7 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="./images/imgimg2.jpg 1x, ./images/imgimg2@2x.jpg 2x"
                     src="./images/imgimg2.jpg"
                     alt="Meditaion App"
                     width="360"
@@ -159,6 +254,10 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="
+                      ./images/imgmarketing2.jpg    1x,
+                      ./images/imgmarketing2@2x.jpg 2x
+                    "
                     src="./images/imgmarketing2.jpg"
                     alt="Taxi Service"
                     width="360"
@@ -180,6 +279,10 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="
+                      ./images/imgdesign1.jpg    1x,
+                      ./images/imgdesign1@2x.jpg 2x
+                    "
                     src="./images/imgdesign1.jpg"
                     alt="Screen Illustrations"
                     width="360"
@@ -203,6 +306,10 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="
+                      ./images/imgmarketing3.jpg    1x,
+                      ./images/imgmarketing3@2x.jpg 2x
+                    "
                     src="./images/imgmarketing3.jpg"
                     alt="Online Courses"
                     width="360"
@@ -224,6 +331,10 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="
+                      ./images/imgdesign2.jpg    1x,
+                      ./images/imgdesign2@2x.jpg 2x
+                    "
                     src="./images/imgdesign2.jpg"
                     alt="Instagram Stories Concept"
                     width="360"
@@ -247,6 +358,10 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="
+                      ./images/imgwebsite1.jpg    1x,
+                      ./images/imgwebsite1@2x.jpg 2x
+                    "
                     src="./images/imgwebsite1.jpg"
                     alt="Organic Food"
                     width="360"
@@ -268,6 +383,10 @@
               <a class="portfolio-link" href="#">
                 <div class="portfolio-image">
                   <img
+                    srcset="
+                      ./images/imgwebsite2.jpg    1x,
+                      ./images/imgwebsite2@2x.jpg 2x
+                    "
                     src="./images/imgwebsite2.jpg"
                     alt="Fresh Coffee"
                     width="360"
@@ -371,5 +490,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
