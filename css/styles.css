@@ -314,6 +314,9 @@ img {
 /* mobile menu */
 
 .mobile-menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   z-index: 1;
   position: fixed;
   top: 0;
@@ -368,12 +371,18 @@ img {
 
 .mobile-header-address {
   margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
 }
 
 .mobile-contact-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: start;
+  gap: 40px;
 }
 
 .mobile-header-contacts {
@@ -385,8 +394,7 @@ img {
   font-size: 36px;
   line-height: 1.11px;
   color: var(--color-brand);
-  display: block;
-}
+ }
 
 .email {
   font-weight: 500;
@@ -397,12 +405,12 @@ img {
 }
 
 .mobile-socials-list {
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
   margin-bottom: 0;
   padding-left: 0;
   display: flex;
-}
+  }
 /* hero */
 
 .hero .container {
