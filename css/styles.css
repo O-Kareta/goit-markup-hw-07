@@ -188,6 +188,7 @@ img {
   color: var(--color-brand);
 }
 .header {
+  
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 20px;
@@ -198,6 +199,7 @@ img {
 @media (min-width: 768px) {
   .header {
     padding: 0;
+    border: none;
   }
 }
 
@@ -424,6 +426,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
+  background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -442,7 +445,6 @@ img {
 
 @media (min-width: 768px) {
   .hero {
-    height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -453,7 +455,6 @@ img {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      height: 436px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
@@ -465,7 +466,6 @@ img {
 
 @media (min-width: 1158px) {
   .hero {
-    height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
@@ -478,7 +478,6 @@ img {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      height: 600px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
