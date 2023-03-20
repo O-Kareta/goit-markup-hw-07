@@ -271,6 +271,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    font-size: 12px;
   }
 }
 
@@ -280,10 +281,12 @@ img {
     flex-direction: row;
     margin-bottom: 0;
     gap: 40px;
+    font-size: 16px;
   }
 }
 
 .header-contacts {
+  line-height: 1.5;
   font-style: normal;
   color: var(--color-bodytext);
   letter-spacing: 0.02em;
@@ -291,6 +294,8 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .header-contacts:hover {
   color: var(--color-pressed);
@@ -542,7 +547,7 @@ img {
 }
 
 /* advantages */
-@media (min-width: 1154px) {
+@media (min-width: 1158px) {
   .adv .list {
     flex-wrap: nowrap;
   }
@@ -552,7 +557,7 @@ img {
   display: none;
 }
 
-@media (min-width: 1154px) {
+@media (min-width: 1158px) {
   .adv-icon-box {
     display: flex;
     align-items: center;
@@ -580,7 +585,7 @@ img {
   }
 }
 
-@media (min-width: 1154px) {
+@media (min-width: 1158px) {
   .column {
     width: 264px;
   }
@@ -588,6 +593,12 @@ img {
 
 .column .section-subtitle {
   text-align: center;
+}
+
+@media (min-width: 768px){
+  .column .section-subtitle {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1158px) {
